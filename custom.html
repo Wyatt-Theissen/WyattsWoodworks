@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Custom Orders | Wyatt's Woodworks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Wyatt's Woodworks</h1>
+    <p class="tagline">Handcrafted Rustic Boards from Indiana</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="custom.html">Custom Orders</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Custom Orders</h2>
+      <p>Want something special? We’re happy to craft custom cutting boards, charcuterie boards, or unique shapes just for you.</p>
+      <p>Please fill out the form below with your ideas, preferred dimensions, wood type, or any other details.</p>
+
+      <form action="mailto:wtheissen10@gmail.com" method="post" enctype="text/plain" class="custom-form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="Name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="Email" required /><br />
+
+        <label for="details">Order Details:</label><br />
+        <textarea id="details" name="Details" rows="6" required></textarea><br />
+
+        <button type="submit" class="button">Submit Order</button>
+      </form>
+
+      <p><em>Note: Submitting this form will open your default email client to send your order.</em></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Wyatt's Woodworks. All rights reserved.</p>
+  </footer>
+</body>
+</html>
