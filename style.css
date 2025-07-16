@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: rgba(102, 34, 34, 0.85);
+  background-color: rgba(102, 34, 34, 0.96);
   text-align: center;
   padding: 20px;
   border-bottom: 2px solid #7c5a45;
@@ -53,7 +53,7 @@ nav a:hover {
 
 main {
   padding: 20px;
-  background-color: rgba(102, 34, 34, 0.85);
+  background-color: rgba(102, 34, 34, 0.96);
 }
 
 .hero h2 {
