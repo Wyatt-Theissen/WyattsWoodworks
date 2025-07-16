@@ -28,16 +28,24 @@
 
       <form action="https://formspree.io/f/xeokwygb" method="POST">
   <label for="name">Name:</label><br />
-  <input type="text" id="name" name="name" required /><br />
+  <input type="text" id="name" name="name" required /><br /><br />
 
   <label for="dimensions">Dimensions (L × W × Thickness):</label><br />
-  <input type="text" id="dimensions" name="dimensions" required /><br />
+  <input type="text" id="dimensions" name="dimensions" required /><br /><br />
 
   <label for="woodtype">Wood Type:</label><br />
-  <input type="text" id="woodtype" name="woodtype" required /><br />
+  <input type="text" id="woodtype" name="woodtype" required /><br /><br />
+
+  <input type="checkbox" id="liveedge" name="live_edge" value="Yes" />
+  <label for="liveedge"><strong>Live Edge</strong></label><br />
+  <small><em>Note: Live edge boards may vary in exact width due to the natural shape of the wood.</em></small><br /><br />
+
+  <label for="other">Other Details:</label><br />
+  <textarea id="other" name="other" rows="5" placeholder="Anything else you'd like us to know?"></textarea><br /><br />
 
   <button type="submit" class="button">Submit Order</button>
 </form>
+
 
 
       <p><em>Note: Submitting this form will open a new page on "Formspree." This is required to submit your order. Thank you!</em></p>
