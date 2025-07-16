@@ -92,6 +92,8 @@ textarea {
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
+   width: fit-content;
+    padding: 12px 24px;
 }
 
 .button:hover {
