@@ -78,3 +78,31 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .hero {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+  }
+
+  .product-list ul {
+    columns: 2;
+    gap: 40px;
+  }
+
+  textarea, input[type="text"], input[type="email"] {
+    width: 60%;
+  }
+
+  form {
+    text-align: left;
+    padding: 20px 40px;
+  }
+}
