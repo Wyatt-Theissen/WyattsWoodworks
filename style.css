@@ -26,7 +26,8 @@ h1 {
   font-style: italic;
    font-weight: bold;
   color: #ffd88c;
-   margin-bottom:60px;
+   text-decoration: underline;
+   margin-bottom:40px;
 }
 
 nav ul {
