@@ -61,6 +61,8 @@ main {
 .hero h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
+   font-weight:bold;
+   color:#ffd88c;
 }
 
 .product-list ul {
