@@ -114,6 +114,21 @@ footer {
   color: #3b2f2f;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 /* ============================
    DESKTOP OVERRIDES (>=768px)
    ============================ */
